@@ -19,5 +19,15 @@ int main ()
 	{
 		cout << "WRONG" << endl;
 	}
+	cout << "What is Rachel's second favorite color?" << endl;
+	cin >> color;
+	if (color == "maroon" || color == "Maroon")
+	{
+		cout  << "You are correct!" << endl;
+	}
+	else
+	{
+		cout << "WRONG AGAIN!! GET TO KNOW RACHEL BETTER" << endl;
+	}
 	return 0;
 }
